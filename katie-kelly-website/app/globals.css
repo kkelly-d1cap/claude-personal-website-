@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1C1C1C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.handwritten {
+  font-family: 'Caveat', cursive;
+}
+
+.highlight-orange {
+  background: linear-gradient(180deg, transparent 60%, #FF9F40 60%);
+  padding: 0 4px;
+}
